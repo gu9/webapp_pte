@@ -21,6 +21,11 @@ def generalenglish():
 @app.route("/pte")
 def pte():
     return render_template("coaching-sidebar-pte.html")
+
 @app.route("/onlineclasses")
 def onlineclasses():
     return render_template("online-classes.html")
+
+@app.route("/videotestimonials")
+def videotestimonials():
+    return render_template("video-testimonial-page.html")

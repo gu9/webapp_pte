@@ -3,14 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-none d-sm-none d-lg-block d-xl-block">
-                    <p class="welcome-text">Welcome to visapress a immigration company website template</p>
+                    <p class="welcome-text">IELTS & PTE training Centre in Gurdaspur</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="header-block">
                         <span class="header-link d-none d-xl-block"><a href="#" class="anchor-link">Talk to Our Expert</a></span>
-                        <span class="header-link">+1 800 123 4567</span>
+                        <span class="header-link">+91 8437963879</span>
                         <span class="header-link"> <button type="submit" class="" data-toggle="modal" data-target="#searchModal"> <i class="fa fa-search"></i></button></span>
-                        <span class="header-link"><a href="#" class="btn btn-default btn-sm">Apply Now</a></span>
+                        <span class="header-link"><a href="{{ url_for('contactus') }}" class="btn btn-default btn-sm">FREE 7 DAYS CLASSES</a></span>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
         <!-- header classic -->
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12"><a href="index-3.html" class=""><img src="static/images/logo.png" alt="Visapress an Immigration and Visa Consulting Website Template"></a></div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12"><a href="{{ url_for('index') }}" class=""><img src="static/images/logo-small-size-transparent.png" width="350" height="60"  alt="Visapress an Immigration and Visa Consulting Website Template"></a></div>
                 <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
                     <div id="navigation" class="navigation">
                         <!-- navigation -->
@@ -37,13 +37,6 @@
                             </li>
                             <li><a href="{{ url_for('onlineclasses') }}">Online Classes</a></li>
                             <li><a href="{{ url_for('videotestimonials') }}">Testimonial</a></li>
-                            <li><a href="#">Blog </a>
-                                <ul>
-                                    <li><a href="blog-page.html">Blog Regular</a></li>
-                                    <li><a href="blog-3-column-page.html">Blog Listing 3 Column</a></li>
-                                    <li><a href="blog-single-page.html">Blog Single</a></li>
-                                </ul>
-                            </li>
                             <li><a href="{{ url_for('contactus') }}">Contact Us</a>
                             </li>
                         </ul>

@@ -14,7 +14,7 @@ Components of the application
 
 # Architecture diagram
 
-![alt text](https://github.com/gu9/webapp_pte/blob/master/GCP_scale.jpg?raw=true)
+![alt text](https://github.com/gu9/webapp_pte/blob/master/GCP_scale.png)
 
 
 
